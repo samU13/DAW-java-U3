@@ -7,10 +7,10 @@ public class main {
         System.out.println("Introduce una cadena de mas de 7 caracteres: ");
         String cadena = teclado.nextLine();
 
-        System.out.println("");
+        System.out.println();
         System.out.println("Longitud de la cadena : " + cadena.length());
         if(cadena.length()>6)
-            System.out.printf("El caracter de la posicion 7 es: "+cadena.charAt(6));
+            System.out.println("El caracter de la posicion 7 es: "+cadena.charAt(6));
         int posicionX = cadena.indexOf('x');
         if (posicionX!=-1)
             System.out.println("La primera posicion en la que aparece la X es : "
