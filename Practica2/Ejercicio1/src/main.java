@@ -8,7 +8,7 @@ public class main {
         String cadena = teclado.nextLine();
 
         System.out.println();
-        System.out.println("Longitud de la cadena : " + cadena.length());
+        System.out.println("Longitud de la cadena es : " + cadena.length());
         if(cadena.length()>6)
             System.out.println("El caracter de la posicion 7 es: "+cadena.charAt(6));
         int posicionX = cadena.indexOf('x');
